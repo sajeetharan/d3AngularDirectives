@@ -11,4 +11,4 @@ I have created two samples using the existing directives for
 - force visualization.
 
 
-[D3AngularDirectives](https://dashboard.heroku.com/apps/d3angular)
+[D3AngularDirectives](https://d3angular.herokuapp.com/#/app/about)
