@@ -1,0 +1,15 @@
+<md-card >
+    <md-card-content>
+        
+        <md-tabs md-dynamic-height md-border-bottom>
+            <md-tab ng-repeat="visual in visualizations" label="{{visual.Name}}">
+                <md-content class="md-padding">
+
+                     <div    ng-include="visual.url">
+                     </div>
+                </md-content>
+            </md-tab>
+        </md-tabs>
+
+    </md-card-content>
+</md-card>

@@ -1,0 +1,18 @@
+<md-toolbar layout="row">
+    <md-button ng-click="toggleSidenav('left')" hide-gt-md class="md-icon-button menuBtn">
+        <md-icon aria-label="Menu"
+                 md-font-icon="fa fa-bars fa-lg">
+        </md-icon>
+    </md-button>
+    <h1 layout-align-gt-sm="center" class="md-toolbar-tools">D3 AngularJS Directives</h1>
+</md-toolbar>
+<div layout="row" flex class="content-wrapper"
+     style="overflow: hidden;">
+    
+    <div layout="column" flex>
+        <md-content layout="column" ui-view="menuContent" layout-padding>
+
+        </md-content>
+    </div>
+
+</div>
